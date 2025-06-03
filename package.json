@@ -12,6 +12,9 @@
   "dependencies": {
     "@clerk/clerk-react": "^5.31.8",
     "@material-tailwind/react": "^2.1.10",
+    "@sentry/react": "^9.25.0",
+    "@sentry/tracing": "^7.120.3",
+    "@sentry/vite-plugin": "^3.5.0",
     "@tailwindcss/vite": "^4.1.8",
     "posthog-js": "^1.249.2",
     "react": "^19.1.0",
