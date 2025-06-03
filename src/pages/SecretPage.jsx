@@ -740,7 +740,7 @@ export default function DBMatchSurvey() {
               onChange={(e) => handleChange("productCategory", e.target.value)}
             >
               <option value="">Select your product category...</option>
-              {["E-commerce","Food Delivery","Social Networking","Content Management / Blogging","Finance / Banking","Healthcare","Gaming","Education / E-learning","Others (please specify)"].map(opt => (
+              {["E-commerce","Food Delivery","Social Networking","Content Management / Blogging","Finance / Banking","Healthcare","Gaming","Education / E-learning","Others"].map(opt => (
                 <option key={opt} value={opt}>{opt}</option>
               ))}
             </select>
