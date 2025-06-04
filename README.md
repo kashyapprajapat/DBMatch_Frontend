@@ -1,18 +1,61 @@
-# DBMatch_Backend
+# DBMatch
 
-## 🚀 Matches your project to the best database choice.
+## Match Your Project with the Perfect Database
 
-DBMatch helps developers choose the most suitable database based on key product and technical factors using an AI-driven recommendation system.
+DBMatch helps developers select the ideal database by analyzing your project’s key requirements and technical factors — powered by AI-driven recommendations for the best match every time.
 
-###### Under Process 
-![tab](./LiveImages/Galaxy-Tab-S7-localhost.png)
+## 🌐 Live Demo
 
----
+👉 [Live Project](https://dbmatch.vercel.app/)
 
-### Posthog Implementation
-![posthog](./LiveImages/Posthog.png)
+![](./LiveImages/Laptop.png)
 
 ---
 
-### Santry.io Erroe ,Feature testing
-![santry](./LiveImages/Santryiodashboard.png)
+## 🖼️ Preview
+
+<table>
+  <tr>
+    <td><img src="./LiveImages/Laptop.png" width="300"/></td>
+    <td><img src="./LiveImages/Mobile.png" width="300"/></td>
+    <td><img src="./LiveImages/clerk.png" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="./LiveImages/Que1.png" width="300"/></td>
+    <td><img src="./LiveImages/Que2.png" width="300"/></td>
+    <td><img src="./LiveImages/Que3.png" width="300"/></td>
+  </tr>
+   <tr>
+    <td><img src="./LiveImages/Que4.png" width="300"/></td>
+    <td><img src="./LiveImages/Santryiodashboard.png" width="300"/></td>
+    <td><img src="./LiveImages/Galaxy-Tab-S7-localhost.png" width="300"/></td>
+  </tr>
+    <tr>
+    <td><img src="./LiveImages/Sentryio.png" width="300"/></td>
+    <td><img src="./LiveImages/Posthog1.png" width="300"/></td>
+    <td><img src="./LiveImages/Posthog2.png" width="300"/></td>
+  </tr>
+</table>
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Vite + React
+- **Authentication**: Clerk
+- **Monitoring & Analytics**:
+  - Sentry.io for error tracking
+  - PostHog for product analytics
+
+## 🚀 Getting Started
+
+Follow these steps to clone and run the project locally:
+
+```bash
+git clone https://github.com/kashyapprajapat/DBMatch_Frontend.git
+cd DBMatch_Frontend
+npm install
+npm run dev
+```
+
+
+#### If You Want to give  a Star 🌟
+👉 [GitHub Repository](https://github.com/kashyapprajapat/DBMatch_Frontend)
