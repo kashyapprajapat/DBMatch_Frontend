@@ -101,8 +101,25 @@ export default function DBMatchSurvey() {
   const [fireworks, setFireworks] = useState([]);
   const navigate = useNavigate();
 
+  // Function to ping the backend
+  const pingBackend = async () => {
+    try {
+      const response = await fetch('https://dbmatch-backend.onrender.com/ping');
+      const data = await response.json();
+      console.log('Invoking DBMatch Backend /ping -->', data);
+    } catch (error) {
+      console.log('Invoking DBMatch Backend /ping --> Error:', error);
+    }
+  };
+
   const handleNext = () => {
     if (!validateCurrentStep()) return;
+    
+    // Call ping API when moving from step 0 (first question) to step 1 (second question)
+    if (step === 0) {
+      pingBackend();
+    }
+    
     if (step < questions.length - 1) setStep((prev) => prev + 1);
   };
 
