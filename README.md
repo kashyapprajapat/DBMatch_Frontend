@@ -37,6 +37,13 @@ DBMatch helps developers select the ideal database by analyzing your project’s
   </tr>
 </table>
 
+---
+
+### Custome Offline page 
+![offline](./LiveImages/offlinepage.png)
+
+---
+
 ## 🛠️ Tech Stack
 
 - **Frontend**: Vite + React
