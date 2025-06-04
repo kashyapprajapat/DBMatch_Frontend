@@ -42,3 +42,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </PostHogProvider>
   </React.StrictMode>
 );
+
+
+// ✅ Service Worker Registration
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then(reg => console.log('✅ Service Worker registered'))
+      .catch(err => console.log('❌ SW registration failed:', err));
+  });
+}
