@@ -19,7 +19,8 @@ function Home() {
 
   const handleClick = () => {
     if (isSignedIn) {
-      window.open("/secret", "_blank");
+      navigate("/secret");
+      // window.open("/secret", "_blank");
     } else {
       alert("Please sign in to start matching your project with the perfect database.");
     }
