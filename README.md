@@ -31,9 +31,9 @@ DBMatch helps developers select the ideal database by analyzing your project’s
     <td><img src="./LiveImages/Galaxy-Tab-S7-localhost.png" width="300"/></td>
   </tr>
     <tr>
-    <td><img src="./LiveImages/Sentryio.png" width="300"/></td>
+    <td><img src="./LiveImages/Santryio1.png" width="300"/></td>
     <td><img src="./LiveImages/Posthog1.png" width="300"/></td>
-    <td><img src="./LiveImages/Posthog2.png" width="300"/></td>
+    <td><img src="./LiveImages/Posthog3.png" width="300"/></td>
   </tr>
 </table>
 
