@@ -1,6 +1,7 @@
 import { useUser } from '@clerk/clerk-react';
 import { useNavigate } from 'react-router-dom';
 import React, { useEffect, useState } from "react";
+import peerlistLogo from "../assets/peerlistLogo.svg"
 
 const Taglines = ["SaaS", "MVP", "Product", "Project", "Startup", "Platform","AI Startup","Side Project","Next Big Idea"];
 
@@ -28,6 +29,13 @@ function Home() {
 
   return (
     <section className="text-center py-20 px-4 max-w-3xl mx-auto">
+      <div className="mb-6">
+        <img 
+          src={peerlistLogo} 
+          alt="Peerlist" 
+          className="mx-auto h-12 w-auto" // Adjust size as needed
+        />
+      </div>
   <h1 className="text-5xl font-extrabold mb-6">
     Match Your Project with the Perfect Database
   </h1>
