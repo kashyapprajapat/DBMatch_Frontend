@@ -51,6 +51,23 @@ DBMatch helps developers select the ideal database by analyzing your project’s
 
 ---
 
+### SEO related things
+
+##### Articals
+[Web SEO](https://webappseo.hashnode.dev/the-complete-seo-blueprint-for-web-applications-in-2025?ref=twitter-share) | 
+[Mobile SEO](https://mobileappseo.hashnode.dev/the-ultimate-mobile-app-seo-and-aso-guide-for-2025-visibility-across-web-and-stores?ref=twitter-share)
+
+##### Live ss
+<table>
+  <tr>
+    <td><img src="./LiveImages/robots.png" width="300"/></td>
+    <td><img src="./LiveImages/sitemap.png" width="300" hight="500"/></td>
+  </tr>
+</table>
+
+
+
+---
 ## 🛠️ Tech Stack
 
 - **Frontend**: Vite + React
